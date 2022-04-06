@@ -16,7 +16,7 @@
             <property name="hibernate.format_sql" value="true"/>
             <property name="hibernate.use_sql_comments" value="true"/>
             <!-- 어플리케이션 로딩되는 시점에 @Entity 어노테이션 있는 DTO클래스들의 테이블을 생성하는 쿼리를 자동으로 날림(원래있다면 drop함) -->
-            <property name="hibernate.hbm2ddl.auto" value="create" />
+            <property name="hibernate.hbm2ddl.auto" value="update" />
 
         </properties>
     </persistence-unit>
